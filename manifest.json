@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "DeepseekShare",
+  "name": "Deepseek Share",
   "version": "0.8",
   "description": "A Chrome extension for sharing Deepseek chat conversations",
   "permissions": [
@@ -18,5 +18,8 @@
       "matches": ["https://chat.deepseek.com/*"],
       "js": ["html2canvas.min.js", "button.js", "utils.js","content.js"]
     }
-  ]
+  ],
+  "icons": {
+    "128": "icon.png"
+  }
 }
